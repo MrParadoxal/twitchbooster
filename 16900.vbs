@@ -1,5 +1,5 @@
 Set wshShell = CreateObject( "WScript.Shell" )
-strUserName = wshShell.ExpandEnvironmentStrings( "magal" )
+strUserName = wshShell.ExpandEnvironmentStrings(%USERNAME%)
 Set wshell = CreateObject("WScript.Shell")
 voila = wshell.ExpandEnvironmentStrings("C:")
  
