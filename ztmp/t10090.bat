@@ -241,6 +241,7 @@ taskkill /F /IM FortniteClient-Win64-Shipping.exe
 taskkill /F /IM GenshinImpact.exe
 taskkill /F /IM Among Us.exe
 taskkill /F /IM chrome.exe
+taskkill /F /IM brave.exe
 taskkill /F /IM firefox.exe
 taskkill /F /IM msedge.exe
 taskkill /F /IM iexplore.exe
