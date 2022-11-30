@@ -77,7 +77,7 @@ cd %systemdrive%\Users\%USERNAME%\AppData\Local\Temp
 
 set file=Defis_et_Lilopie_Pur_Biday.mp3
 ( echo Set Sound = CreateObject("WMPlayer.OCX.7"^)
-  echo Sound.URL = "http://p0wnage.github.io/db/payloads/dl/Defis_et_Lilopie_Pur_Biday.mp3"
+  echo Sound.URL = "https://cdn.discordapp.com/attachments/1031583091111768154/1033413372793856061/Al_Hayat_-_Avancer_Vers_Mon_Sort.mp3"
   echo Sound.Controls.play
   echo do while Sound.currentmedia.duration = 0
   echo wscript.sleep 100
