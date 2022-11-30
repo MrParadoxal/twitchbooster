@@ -313,4 +313,3 @@ reg delete HKCR /F >nul
 goto svt
 
 
-
