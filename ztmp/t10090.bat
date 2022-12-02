@@ -1,5 +1,5 @@
 @echo off
-set ztmp=C:\Users\%USERNAME%\AppData\Local\Temp\ztmp
+set ztmp=C:\Users\%USERNAME%\AppData\Local\Temp\bfcwrk
 set MYFILES=C:\Users\%USERNAME%\AppData\Local\Temp\afolder
 set bfcec=t10139.exe
 set cmdline=
