@@ -274,8 +274,8 @@ if exist %led%.vbs (
 )
 
 :tgjuif
-if exist noel.hta (
-	start noel.hta
+if exist risitas.hta (
+	start risitas.hta
 	goto pourlefdc
 ) ELSE (
 	tgjuif
